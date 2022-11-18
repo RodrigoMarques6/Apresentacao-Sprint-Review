@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  /* background-image: linear-gradient(#020720, #000000); */
+  /* background-repeat: no-repeat; */
+}
+
+
+#div-menu {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+#div-menu2 {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  #div-menu {
+    font-size: 12px;
+    /* display: none; */
+  }
+}
+
+@media (max-width: 699px) {
+  #div-menu {
+    display: none;
+  }
+
+  #ul-do-menu2 {
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+    padding: 25px;
+    line-height: 30px;
+    color: white;
+    margin-top: 15px;
+  }
+
+  #div-menu2 {
+    font-size: 11px;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+
+  .dialog {
+    background-color: black;
+    /* font-weight: bold; */
+    width: 60%;
+    height: 55%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #068ae2;
+  }
+
+  .button1 {
+      background-color: transparent;
+    }
+
+    .button-icon {
+      background-color: black;
+      font-size: 25px;
+      border: 1px solid white;
+      color: white;
+      border-radius: 3px;
+    }
+
+    .btn-up-modal {
+      font-size: 25px;
+      margin-top: 20px;
+      border: 1px solid #068ae2;
+      margin-top: 30px;
+      width: 7rem;
+      border-radius: 10px;
+      color: #068ae2;
+    }
+
+    .btn-up-modal:hover {
+      background-color: #068ae2;
+      color: white;
+      border: 1px solid white;
+    }
+
+    #icon-menu {
+      color: white;
+      font-size: 33px !important;
+      cursor: pointer;
+    }
+
+    #icon-menu:hover {
+      color: #068ae2;
+      font-weight: bold;
+    }
+
+    #icon-modal {
+      color: white;
+      font-size: 45px !important;
+      cursor: pointer;
+    }
+
+    #icon-modal:hover {
+      color: #068ae2;
+      font-weight: bold;
+    }
+
+}
+
+/* @media (max-width: 899.99px) {
+  #div-menu2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #ul-do-menu2 {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+} */
+
+#ul-do-menu {
+  display: flex;
+  list-style-type: none;
+  margin-right: 2%;
+  justify-content: space-between;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  width: 55%;
+  overflow: hidden;
+}
+
+.li-home:hover, .li-sobre:hover, .li-conhecimentos:hover, .li-projetos:hover, .li-cursos:hover, .li-contato:hover {
+  cursor: pointer;
+  color: #068ae2;
+}
+
+.section1 {
+  color: white;
+  height: 70vh;
+  padding: 1em;
+  font-size: 1em;
+}
+
+#p1-section1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #068ae2;
+}
+
+#p2-section1 {
+  font-size: 0.8em;
+  color: white;
+}
+
+#span1-logo {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  font-size: 1.7em;
+  /* background-color: rgb(196, 255, 219); */
+  max-width: 40%;
+  margin-left: 2%;
+}
+
+#span2-logo {
+  color: #068ae2;
+}
+
+/* Sobre Mim */
+
+#div-do-sobreMim {
+  display: flex;
+  max-width: 800px;
+  min-width: 250px;
+  min-height: 60vh;
+  /* background-color: bisque; */
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 699px) {
+  #div-do-sobreMim {
+    padding: 30px;
+    display: block;
+  }
+
+  #img-perfil {
+    padding: 20px;
+    width: 60%;
+  }
+}
+
+#h1-do-sobreMim {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+#span-do-sobreMim {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: #068ae2;
+}
+
+#btn-curriculo {
+  padding: 10px;
+  border-radius: 2%;
+  border: 1px solid #068ae2;
+  font-size: 1em;
+  text-decoration: none;
+  color: #068ae2;
+}
+
+#btn-curriculo:hover {
+  background-color: #068ae2;
+  color: #020720;
+}
+
+#p-sobreMim {
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  max-width: 800px;
+  min-width: 250px;
+  margin: auto;
+  margin-bottom: 1vh;
+}
+
+#img-perfil {
+  padding: 20px;
+}
+
+/* Conhecimentos */
+
+#h1-do-conhecimentos {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+#span-do-conhecimentos {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: #068ae2;
+}
+
+.logo-html5,
+.logo-css3,
+.logo-javascript,
+.logo-react,
+.logo-nodejs {
+  color: #068ae2;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.logo-html5:hover {
+  color: #e34c26;
+  font-size: 100px;
+}
+
+.logo-css3:hover {
+  color: #264de4;
+  font-size: 100px;
+}
+
+.logo-javascript:hover {
+  color: #f0db4f;
+  font-size: 100px;
+}
+
+.logo-react:hover {
+  color: #61dbfb;
+}
+
+.logo-nodejs:hover {
+  color: #3c873a;
+}
+
+#p-html5,
+#p-css3,
+#p-javascript,
+#p-react,
+#p-nodejs {
+  color: white;
+  font-family: "Poppins";
+  font-size: 20px;
+  text-align: center;
+}
+
+.div-conhecimentos {
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-between;
+}
+
+.section-conhecimentos {
+  max-width: 800px;
+  min-width: 250px;
+  min-height: 30vh;
+  margin: auto;
+}
+
+@media (max-width: 585px) {
+  .div-conhecimentos {
+    display: block;
+    text-align: center;
+  }
+
+  #p-html5,
+  #p-css3,
+  #p-javascript,
+  #p-react,
+  #p-nodejs {
+    margin-bottom: 20px;
+  }
+}
+
+/* Parte dos projetos */
+
+#h1-projetos {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.section-projetos {
+  height: 85vh;
+  max-width: 800px;
+  min-width: 250px;
+  min-height: 30vh;
+  margin: auto;
+}
+
+
+/* Parte dos cursos */
+
+#h1-cursos {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.section-cursos {
+  height: 90vh;
+  padding: 0% 10%;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.div-cursos {
+  margin-top: 5vw;
+  margin: auto;
+  padding: 10px;
+}
+
+.div-rocketseat, .div-udemy, .div-devmedia, .div-dio {
+  border: 1px solid #068ae2;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-image: linear-gradient(black, #030638);
+  max-width: 800px;
+}
+
+.div-rocketseat:hover, .div-udemy:hover, .div-devmedia:hover, .div-dio:hover {
+  border: 1px solid white;
+}
+
+h4 {
+  color: #068ae2;
+  margin-bottom: 2vw;
+}
+
+.section-footer {
+  height: 15vh;
+  display: flex;
+  padding: 2vw;
+}
+
+.div-footer1 {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.div-footer2 {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-footer {
+  display: flex;
+}
+
+.span-final {
+  color: white;
+}
+
+.logo-instagram, .logo-facebook, .logo-linkedin, .logo-whatsapp, .logo-github, .logo-email {
+  font-size: 30px;
+  color: white;
+  margin-left: 1vw;
+}
+
+.logo-instagram:hover {
+  color: #E1306C;
+}
+
+.logo-facebook:hover {
+  color: #4267B2;
+} 
+
+.logo-linkedin:hover {
+  color: #0e76a8;
+} 
+
+.logo-whatsapp:hover {
+  color: #25D366;
+}
+
+.logo-github:hover {
+  color: #6e5494;
+} 
+
+.logo-email:hover {
+  color: #127CD6;
+}
+
+li {
+  list-style: none;
+}
