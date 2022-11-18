@@ -14,6 +14,13 @@ body {
   /* background-repeat: no-repeat; */
 }
 
+h3 {
+    color: white;
+}
+
+.b {
+    font-style: italic;
+}
 
 #div-menu {
   display: flex;
@@ -25,9 +32,9 @@ body {
   display: none;
 }
 
-code {
+.div-livro {
+    padding: 10px;
     text-align: center;
-    color: white;
 }
 
 @media (max-width: 900px) {
@@ -58,16 +65,6 @@ code {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-  }
-
-  .dialog {
-    background-color: black;
-    /* font-weight: bold; */
-    width: 60%;
-    height: 55%;
-    margin: auto;
-    border-radius: 10px;
-    border: 1px solid #068ae2;
   }
 
   .button1 {
@@ -122,19 +119,6 @@ code {
 
 }
 
-/* @media (max-width: 899.99px) {
-  #div-menu2 {
-    display: flex;
-    justify-content: space-between;
-  }
-  #ul-do-menu2 {
-    color: white;
-    list-style: none;
-    font-weight: bold;
-    padding: 0.5em;
-    font-size: 1em;
-  }
-} */
 
 #ul-do-menu {
   display: flex;
@@ -149,10 +133,6 @@ code {
   overflow: hidden;
 }
 
-.li-home:hover, .li-sobre:hover, .li-conhecimentos:hover, .li-projetos:hover, .li-cursos:hover, .li-contato:hover {
-  cursor: pointer;
-  color: #068ae2;
-}
 
 .section1 {
   color: white;
@@ -187,6 +167,13 @@ code {
 
 /* Sobre Mim */
 
+.section-sobreMim {
+    /* height: 90vh; */
+    padding: 0% 10%;
+    margin: auto;
+    text-align: center;
+}
+
 #div-do-sobreMim {
   display: flex;
   max-width: 800px;
@@ -195,7 +182,7 @@ code {
   /* background-color: bisque; */
   margin: auto;
   text-align: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 @media (max-width: 699px) {
@@ -238,12 +225,13 @@ code {
 
 #p-sobreMim {
   color: white;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
   max-width: 800px;
   min-width: 250px;
   margin: auto;
   margin-bottom: 1vh;
+
 }
 
 #img-perfil {
@@ -336,24 +324,6 @@ code {
   }
 }
 
-/* Parte dos projetos */
-
-#h1-projetos {
-  font-family: "Poppins", "Open Sans", sans-serif;
-  color: white;
-  text-align: center;
-  margin-top: 5vw;
-}
-
-.section-projetos {
-  height: 85vh;
-  max-width: 800px;
-  min-width: 250px;
-  min-height: 30vh;
-  margin: auto;
-}
-
-
 /* Parte dos cursos */
 
 #h1-cursos {
@@ -363,12 +333,19 @@ code {
   margin-top: 5vw;
 }
 
-.section-cursos {
-  height: 90vh;
+.section-fluxos {
+  /* height: 90vh; */
   padding: 0% 10%;
   margin: auto;
   text-align: center;
 }
+
+.section-pontos {
+    /* height: 90vh; */
+    padding: 0% 10%;
+    margin: auto;
+    text-align: center;
+  }
 
 p {
   color: white;
@@ -380,7 +357,7 @@ p {
   padding: 10px;
 }
 
-.div-rocketseat, .div-udemy, .div-devmedia, .div-dio {
+.div-rocketseat {
   border: 1px solid #068ae2;
   border-radius: 5px;
   margin: auto;
@@ -390,7 +367,17 @@ p {
   max-width: 800px;
 }
 
-.div-rocketseat:hover, .div-udemy:hover, .div-devmedia:hover, .div-dio:hover {
+.div-img {
+    background-color: black;
+    border: 1px solid #068ae2;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.div-rocketseat:hover, .div-img:hover{
   border: 1px solid white;
 }
 
