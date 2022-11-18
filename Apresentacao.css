@@ -25,6 +25,11 @@ body {
   display: none;
 }
 
+code {
+    text-align: center;
+    color: white;
+}
+
 @media (max-width: 900px) {
   #div-menu {
     font-size: 12px;
