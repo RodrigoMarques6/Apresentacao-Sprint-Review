@@ -483,3 +483,7 @@ h4 {
 li {
   list-style: none;
 }
+
+.padding {
+  padding: 30px;
+}
