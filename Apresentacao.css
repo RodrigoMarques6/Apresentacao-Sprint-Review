@@ -5,6 +5,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 23px;
+}
+
+#h1-titulo, #span-titulo {
+  font-size: 35px;
+}
+
+h1, span {
+  font-size: 30px;
 }
 
 body {
@@ -171,15 +180,15 @@ h3 {
 
 /* Sobre Mim */
 
-.section-sobreMim {
+.section-gerente {
   /* height: 90vh; */
   padding: 0% 10%;
   margin: auto;
   text-align: center;
 }
 
-#div-do-sobreMim {
-  display: flex;
+#div-gerente {
+  /* display: flex; */
   max-width: 800px;
   min-width: 250px;
   min-height: 60vh;
@@ -201,14 +210,14 @@ h3 {
   }
 }
 
-#h1-do-sobreMim {
+#h1-titulo {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: white;
   text-align: center;
   margin-top: 5vw;
 }
 
-#span-do-sobreMim {
+#span-titulo {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: #068ae2;
 }
