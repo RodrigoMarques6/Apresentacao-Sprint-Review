@@ -18,6 +18,10 @@ h3 {
   color: white;
 }
 
+.h3-gerente {
+  font-style: italic;
+}
+
 .b {
   font-style: italic;
 }
@@ -309,6 +313,8 @@ h3 {
   margin: auto;
 }
 
+
+
 @media (max-width: 585px) {
   .div-conhecimentos {
     display: block;
@@ -348,6 +354,13 @@ h3 {
 }
 
 .section-codigos {
+  /* height: 90vh; */
+  padding: 0% 10%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-conclusao {
   /* height: 90vh; */
   padding: 0% 10%;
   margin: auto;
