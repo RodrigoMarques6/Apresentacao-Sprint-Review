@@ -8,7 +8,7 @@
   font-size: 23px;
 }
 
-#h1-titulo, #span-titulo {
+#h1-titulo, #span-titulo, #h1-apresentacao, #span-apresentacao {
   font-size: 35px;
 }
 
@@ -187,6 +187,13 @@ h3 {
   text-align: center;
 }
 
+.section-apresentacao {
+    /* height: 90vh; */
+    padding: 0% 10%;
+    margin: auto;
+    text-align: center;
+}
+
 #div-gerente {
   /* display: flex; */
   max-width: 800px;
@@ -210,14 +217,14 @@ h3 {
   }
 }
 
-#h1-titulo {
+#h1-titulo, #h1-apresentacao {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: white;
   text-align: center;
   margin-top: 5vw;
 }
 
-#span-titulo {
+#span-titulo, #span-apresentacao {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: #068ae2;
 }
