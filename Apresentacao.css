@@ -267,7 +267,7 @@ h3 {
   margin-top: 5vw;
 }
 
-#span-do-conhecimentos {
+#div-cursos, #span-do-conhecimentos, #span-gerente, #span-fluxos, .div-fluxos, #span-codigos, .div1-codigos, .div2-codigos {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: #068ae2;
 }
@@ -346,9 +346,7 @@ h3 {
   }
 }
 
-/* Parte dos cursos */
-
-#h1-cursos {
+#h1-cursos, #h1-gerente, #h1-fluxos, #h1-codigos {
   font-family: "Poppins", "Open Sans", sans-serif;
   color: white;
   text-align: center;
@@ -387,13 +385,13 @@ p {
   color: white;
 }
 
-.div-cursos {
+.div-cursos, .div1-gerente {
   margin-top: 5vw;
   margin: auto;
   padding: 10px;
 }
 
-.div-rocketseat {
+.div-rocketseat, .div2-gerente, .div3-gerente, .div4-gerente {
   border: 1px solid #068ae2;
   border-radius: 5px;
   margin: auto;
@@ -403,7 +401,7 @@ p {
   max-width: 800px;
 }
 
-.div-img {
+.div-img, .div-img-gerente, .div1-img-fluxos, .div2-img-fluxos, .div3-img-cursos, .div1-img-codigos, .div2-img-codigos {
   background-color: black;
   border: 1px solid #068ae2;
   border-radius: 5px;
@@ -414,7 +412,16 @@ p {
 }
 
 .div-rocketseat:hover,
-.div-img:hover {
+.div2-gerente:hover,
+.div3-gerente:hover,
+.div4-gerente:hover,
+.div-img:hover,
+.div-img-gerente:hover,
+.div1-img-fluxos:hover,
+.div2-img-fluxos:hover,
+.div3-img-cursos:hover,
+.div1-img-codigos:hover,
+.div2-img-codigos:hover {
   border: 1px solid white;
 }
 
