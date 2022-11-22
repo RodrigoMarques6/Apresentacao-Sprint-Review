@@ -49,6 +49,7 @@ h3 {
 .div-livro {
   padding: 10px;
   text-align: center;
+  display: none;
 }
 
 .section1 {
