@@ -397,3 +397,97 @@ li {
 .padding {
   padding: 30px;
 }
+
+#h1-gerente:hover, #span-gerente:hover, #h1-apresentacao:hover, #span-apresentacao, #h1-fluxos:hover, #span-fluxos:hover, #h1-codigos:hover, #span-codigos:hover, #h1-pontos:hover, #span-pontos:hover, #h1-conclusao:hover, #span-conclusao:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #img-secretaria {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 562px) {
+  #img-secretaria {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #img1-fluxos {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  #img1-fluxos {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #img2-fluxos {
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #img3-fluxos {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 943px) {
+  #img1-codigos {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 623px) {
+  #img1-codigos {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 691px) {
+  #img2-codigos {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  #img1-pontos, #img2-pontos, #img3-pontos {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  #img1-pontos, #img2-pontos, #img3-pontos {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 751px) {
+  #img-conclusao {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  #img-conclusao {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  #h1-apresentacao, #span-apresentacao {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  * {
+    font-size: 15px;
+  }
+}
