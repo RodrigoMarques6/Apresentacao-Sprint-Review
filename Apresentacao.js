@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     openDivFluxos();
     openDivCodigos();
     openDivConclusao();
+    openDivPontos();
 });
 
 
@@ -95,4 +96,19 @@ function openDivLivro() {
       });
     });
   }
+
+    const h1Pontos = document.getElementById('h1-pontos');
+    const divPontos = document.getElementById('div-pontos');
+
+    function openDivPontos() {
+      $("#h1-pontos").on("click", function () {
+        $("#div-pontos").slideToggle("slow");
+      });
+    
+      $("#algoaqui").each(function () {
+        $(this).on("click", function () {
+          $("#div-pontos").slideToggle("slow");
+        });
+      });
+    }
 
